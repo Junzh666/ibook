@@ -26,10 +26,17 @@
 
 
 {% hint style="info" %}
-阿里云原来提供的免费证书为一年期限，自 起调整为3个月，请注意更新证书。[https://help.aliyun.com/zh/ssl-certificate/product-overview/notice-on-adjustment-of-service-policies-for-free-certificates](https://help.aliyun.com/zh/ssl-certificate/product-overview/notice-on-adjustment-of-service-policies-for-free-certificates)
+阿里云原来提供的免费证书为一年期限，现在调整为3个月，请注意更新证书。[公告链接](https://help.aliyun.com/zh/ssl-certificate/product-overview/notice-on-adjustment-of-service-policies-for-free-certificates)
 {% endhint %}
 
 ## 防火墙相关
+
+
+
+{% hint style="warning" %}
+* 本文档为方便演示，将所有服务安装在同一台服务器上，正式环境不建议这么做。
+* 大陆地区80、443端口需要备案后才可使用；如没有完成备案，需使用其他端口代替。
+{% endhint %}
 
 本架构所涉及到的端口如下，请根据实际情况选择是否对外开放：
 
