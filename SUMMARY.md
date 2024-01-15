@@ -36,7 +36,11 @@
 
 ## iRedMail
 
-* [Page 1](iredmail/page-1.md)
+* [准备工作](iredmail/zhun-bei-gong-zuo.md)
+* [安装过程](iredmail/an-zhuang-guo-cheng.md)
+* [配置nginx](iredmail/pei-zhi-nginx.md)
+* [配置DNS](iredmail/pei-zhi-dns.md)
+* [使用说明](iredmail/shi-yong-shuo-ming.md)
 
 ## OpenLDAP
 
