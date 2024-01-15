@@ -30,7 +30,7 @@
 
 ## 概述
 
-* [这是什么？](gai-shu/zhe-shi-shi-mo.md)
+* [介绍](gai-shu/jie-shao.md)
 * [功能](gai-shu/gong-neng.md)
 * [准备工作](gai-shu/zhun-bei-gong-zuo.md)
 
