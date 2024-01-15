@@ -21,27 +21,19 @@
 ## 其他要求
 
 * 域名：完全权限的顶级域名，本文以ppsuper.com为例。
-* SSL证书：可以购买权匹配的专业ssl证书，也可以使用FreeSSL和阿里云的免费SSL证书\[^1]。
+* SSL证书：可以购买权匹配的专业ssl证书，也可以使用FreeSSL和阿里云的免费SSL证书。
+
+
+
+{% hint style="info" %}
+阿里云原来提供的免费证书为一年期限，自 起调整为3个月，请注意更新证书。[https://help.aliyun.com/zh/ssl-certificate/product-overview/notice-on-adjustment-of-service-policies-for-free-certificates](https://help.aliyun.com/zh/ssl-certificate/product-overview/notice-on-adjustment-of-service-policies-for-free-certificates)
+{% endhint %}
 
 ## 防火墙相关
 
 本架构所涉及到的端口如下，请根据实际情况选择是否对外开放：
 
-| 软件            | 服务         | 端口    |
-| ------------- | ---------- | ----- |
-| ssh           | ssh        | 22    |
-| Roundcubemail | https      | 44444 |
-| Postfix       | smtp       | 25    |
-| Postfix       | submission | 587   |
-| Dovecot       | pop3       | 110   |
-| Dovecot       | pop3s      | 995   |
-| Dovecot       | imap       | 143   |
-| Dovecot       | imaps      | 993   |
-| Rocket.Chat   | https      | 44443 |
-| NextCloud     | https      | 44445 |
-| GitLab        | https      | 8888  |
+<table data-header-hidden data-full-width="false"><thead><tr><th width="244.33333333333331"></th><th></th><th></th></tr></thead><tbody><tr><td>服务</td><td>端口</td><td>软件</td></tr><tr><td>ssh</td><td>22</td><td>ssh</td></tr><tr><td>https</td><td>44444</td><td>Roundcubemail</td></tr><tr><td>smtp</td><td>25</td><td>Postfix</td></tr><tr><td>submission</td><td>587</td><td>Postfix</td></tr><tr><td>pop3</td><td>110</td><td>Dovecot</td></tr><tr><td>pop3s</td><td>995</td><td>Dovecot</td></tr><tr><td>imap</td><td>143</td><td>Dovecot</td></tr><tr><td>imaps</td><td>993</td><td>Dovecot</td></tr><tr><td>https</td><td>44443</td><td>Rocket.Chat</td></tr><tr><td>https</td><td>44445</td><td>NextCloud</td></tr><tr><td>https</td><td>8888</td><td>GitLab</td></tr></tbody></table>
 
 
-
-> \[^1]: 阿里云原来提供的免费证书为一年期限，自 起调整为3个月，请注意更新证书。[https://help.aliyun.com/zh/ssl-certificate/product-overview/notice-on-adjustment-of-service-policies-for-free-certificates](https://help.aliyun.com/zh/ssl-certificate/product-overview/notice-on-adjustment-of-service-policies-for-free-certificates)
 
