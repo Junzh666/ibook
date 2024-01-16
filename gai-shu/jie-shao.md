@@ -15,13 +15,13 @@
 3. [Oracle Internet Directory](https://www.oracle.com/middleware/technologies/internet-directory.html)：Oracle Internet Directory是Oracle数据库中集成的LDAP服务器，可用于存储和管理大量用户、组织和应用程序数据。
 4. [IBM Tivoli Directory Server](https://www.ibm.com/docs/en/sdse/6.3.0?topic=server-quick-start-guide)：Tivoli Directory Server是IBM的标准LDAP目录服务器，用于企业级身份和访问管理。
 
-## iRedMail
+## [iRedMail](broken-reference)
 
 > [iRedMail](https://www.iredmail.org/)开源免费的邮件系统，它集成了多个邮箱相关组件，用于帮助企业构建免费的邮件平台，完美支持各种Linux发行版，支持LDAP认证。
 
 iRedMail官方提供了[中文安装手册](https://docs.iredmail.org/index.html)，有兴趣的小伙伴可以跳过本教程自行安装。
 
-## Rocket.Chat
+## [Rocket.Chat](broken-reference)
 
 > Rocket.Chat不仅仅是一个聊天软件，它是一个开源的团队协作平台，提供实时通信和协作工具。它类似于[Slack](https://slack.com/intl/zh-cn/)，但具有自主托管的能力，这意味着您可以在自己的服务器上部署和控制 Rocket.Chat 实例。
 
@@ -29,7 +29,7 @@ iRedMail官方提供了[中文安装手册](https://docs.iredmail.org/index.html
 
 该平台还具有可定制性强的特点，您可以根据需要添加插件、集成其他工具和服务，以满足团队的特定需求。Rocket.Chat 的代码是开源的，因此用户可以根据自己的要求进行修改和定制。
 
-## Gitlab
+## [Gitlab](broken-reference)
 
 > [GitLab](https://about.gitlab.com/)是一个基于Git的开源代码托管和协作平台。它提供了版本控制、代码审查、问题跟踪、持续集成等功能，使团队能够在一个统一的平台上进行协作开发。
 
@@ -42,7 +42,7 @@ GitLab的一些主要特点：
 5. **扩展性和集成**：GitLab支持丰富的插件和集成，可以与其他工具和服务（如JIRA、Slack、Kubernetes等）进行集成，以满足特定的开发流程需求。
 6. **自托管选项**：除了GitLab提供的托管服务之外，您还可以选择自己部署和托管GitLab实例，从而更好地控制和保护您的代码。
 
-## NextCloud
+## [NextCloud](broken-reference)
 
 > [Nextcloud ](https://nextcloud.com/)是一个开源的自托管云存储和协作平台。它提供了文件同步、共享和访问，以及日历、联系人管理、邮件等功能，使个人用户和组织能够在一个集成的环境中管理和分享数据。
 
@@ -54,9 +54,7 @@ Nextcloud 的一些主要特点：
 4. **安全性和隐私保护**：Nextcloud 提供了强大的安全功能，包括用户身份验证、加密传输和存储、审计日志等，以确保您的数据得到保护。您可以选择将数据存储在自己的服务器上，而不依赖第三方云服务。
 5. **第三方应用和集成**：Nextcloud 具有丰富的第三方应用和插件生态系统，可以集成其他工具和服务，如日历同步、电子邮件、视频会议等。
 
-## OnlyOffice
+## [OnlyOffice](broken-reference)
 
-OnlyOffice是一个扩展nextcloud的插件，用于在线编辑文本文件，目前仅支持主流的文本格式（如：word,excel,txt等），不支持markdown格式在线编辑。
-
-> [OnlyOffice官方网站](https://www.onlyoffice.com/)
+[OnlyOffice](https://www.onlyoffice.com/)是一个扩展nextcloud的插件，用于在线编辑文本文件，目前仅支持主流的文本格式（如：word,excel,txt等），不支持markdown格式在线编辑。
 

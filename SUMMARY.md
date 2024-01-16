@@ -41,10 +41,12 @@
 * [配置nginx](iredmail/pei-zhi-nginx.md)
 * [配置DNS](iredmail/pei-zhi-dns.md)
 * [使用说明](iredmail/shi-yong-shuo-ming.md)
+* [Troubleshooting](iredmail/troubleshooting.md)
 
 ## OpenLDAP
 
-* [Page 2](openldap/page-2.md)
+* [Web管理](openldap/web-guan-li.md)
+* [memberOf属性](openldap/memberof-shu-xing.md)
 
 ## Gitlab
 

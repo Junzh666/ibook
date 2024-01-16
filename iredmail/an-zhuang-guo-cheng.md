@@ -11,6 +11,8 @@ bash iRedMail.sh
 
 ## 安装过程
 
+iRedMail整个安装过程是需要用户通过交互设定所需的安装参数，并不能通过教程全自动进行安装。以下是完整安装过程中出现的所有需要交互的页面示例：
+
 ### 交互界面1
 
 ![执行脚本成功后的欢迎界面](https://docs.iredmail.org/images/installation/welcome.png)
