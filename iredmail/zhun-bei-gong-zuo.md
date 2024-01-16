@@ -1,10 +1,7 @@
 # 准备工作
 
-
-
 {% hint style="info" %}
-* 大多数ISP会限制25端口（smtp），请与ISP沟通解除25端口限制，否则iRedmail将无法正常发送邮件。
-* 由于iRedMail集成环境所安装的组件过多，如MySQL, OpenLDAP, Postfix, Dovecot, Amavisd服务将在iRedMail安装过程中被自动安装。请保证系统的纯净性，否则iRedMail将安装失败。
+大多数ISP会限制25端口（smtp），请与ISP沟通解除25端口限制，否则iRedmail将无法正常发送邮件。
 {% endhint %}
 
 ## 设置FQDN

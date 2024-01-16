@@ -14,7 +14,7 @@ iRedMail用户其实就是OpenLDAP用户，不建议手动创建，可使用iRed
 
 ```shell
 LDAP_SUFFIX="dc=ppsuper,dc=com"        # LDAP后缀
-DEFAULT_PASSWD='TxoSvGthhI2k8ghB'      # 用户默认密码
+DEFAULT_PASSWD='12345678'      # 用户默认密码
 USE_DEFAULT_PASSWD='YES'               # 是否启用默认密码
 ```
 
