@@ -1,0 +1,9 @@
+title: iBook
+description: This is my ibook
+author: Junzh666
+language: zh-cn
+plugins:
+links:
+  sidebar:
+    Custom Link: https://www.ppsuper.com
+
