@@ -1,10 +1,10 @@
-name: Build and Publish My GitBook
+name: Build and Publish My GitBook for junzh
 
 on:
   workflow_dispatch:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   build-and-deploy:
@@ -12,9 +12,9 @@ jobs:
     runs-on: ubuntu-latest
     env:
       MY_SECRET   : ${{secrets.GH_ACCESS_TOKEN}}
-      USER_NAME   : <Your Git username>
-      USER_EMAIL  : <Your Git email>
-      BOOK_DIR    : your_book_sources_folder_name
+      USER_NAME   : junzh666
+      USER_EMAIL  : junzh666@gmail.com
+      BOOK_DIR    : _book
 
     steps:
     - name: Checkout 🛎️
