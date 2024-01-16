@@ -1,15 +1,23 @@
-name: 'Gitbook Action Build'
+name: Build and Publish My GitBook for junzh
+
 on:
+  workflow_dispatch:
   push:
     branches:
-      - main  # trigger branch
+      - main
+
 jobs:
-  build:
+  build-and-deploy:
+    name: Build and deploy
     runs-on: ubuntu-latest
+    env:
+      MY_SECRET   : ${{secrets.GITBOOK_TOKEN}}
+      USER_NAME   : junzh666
+      USER_EMAIL  : junzh666@gmail.com
+
     steps:
-    - name: Checkout action
-      uses: actions/checkout@v2
-    - name: Gitbook Action           # https://github.com/ZanderZhao/gitbook-action/releases
-      uses: ZanderZhao/gitbook-action@v1.2.4  # -> or ZanderZhao/gitbook-action@master.  If not use master click above, use latest please 
-      with:                                   #    or fork this repo and use YourName/gitbook-action@master
-        token: ${{ secrets.GITBOOK_TOKEN }}  # -> remember add this in settings/secrets as following
+    - name: Checkout 🛎️
+      uses: actions/checkout@v2.3.1
+
+    - name: Build and Deploy 🚀
+      uses: onejar99/gitbook-build-publish-action@v1.0.3
